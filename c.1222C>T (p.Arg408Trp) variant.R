@@ -1,4 +1,4 @@
-a<-read.csv("~/Downloads/gnomAD_v2.1.1_ENSG00000171759_2023_11_01_17_21_05.csv")
+a<-read.csv("~/Downloads/gnomAD_v4.0.0_ENSG00000171759_2023_11_04_18_16_14.csv")
 b<-subset(a, a$ClinVar.Clinical.Significance=="Pathogenic")
 c<-subset(b,b$VEP.Annotation=="missense_variant")
 View(c)
